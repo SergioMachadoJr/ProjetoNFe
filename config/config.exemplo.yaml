@@ -1,0 +1,13 @@
+ambiente: producao # producao ou homologacao
+certificado:
+  arquivo_pfx: /opt/certificados/empresa-a1.pfx
+  senha: ALTERAR_AQUI
+armazenamento:
+  diretorio_base: /mnt/rede/notas_entrada
+  estado_nsu_arquivo: /var/lib/captura-nfe/nsu-state.json
+consulta:
+  timeout_segundos: 45
+  max_nsu_por_consulta: 50
+cnpjs:
+  - "12345678000190"
+  - "00987654000111"
