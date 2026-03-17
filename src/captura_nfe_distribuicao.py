@@ -13,9 +13,9 @@ from datetime import datetime
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
-import requests
-import yaml
-from requests_pkcs12 import Pkcs12Adapter
+import requests  # pyright: ignore[reportMissingModuleSource]
+import yaml  # pyright: ignore[reportMissingModuleSource]
+from requests_pkcs12 import Pkcs12Adapter  # pyright: ignore[reportMissingModuleSource]
 
 NAMESPACE = {
     "soap": "http://schemas.xmlsoap.org/soap/envelope/",
